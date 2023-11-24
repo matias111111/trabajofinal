@@ -1,0 +1,81 @@
+:root {
+    --color1: #eae8dc;
+    --color1-1: #fdf5e6;
+    --color2: #181818;
+    --color3:  rgba(206, 83, 1, 0.856);
+    --color4 :  #986700
+}
+
+
+
+.miBoton {
+    background-color: var(--color3);
+    color: white;
+}
+
+.miBoton:hover {
+    color: white;
+    background-color: rgb(206, 114, 1);
+}
+
+.div-nosotros {
+    background-color: var(--color2);
+    color: white;
+}
+.tarjeta-banner{
+    background-color: var(--color4);
+    opacity: .8;
+}
+
+.img-fluid {
+    height: auto;
+}
+
+.div-cards{
+    background-color: var(--color1);
+}
+
+.card-body{
+    background-color: var(--color2);
+    color: white;
+}
+
+.div-form{
+    background-color: var(--color1-1);
+}
+
+.div-form div p a{
+    color: var(--color3);
+}
+.div-form div p{
+    color: var(--color3);
+}
+
+.mensaje{
+    height: 100px;
+}
+
+.form-miBoton{
+    background-color: var(--color3);
+    color: white;
+}
+
+.form-miBoton:hover{
+    color: white;
+    background-color: rgb(206, 114, 1);
+}
+
+
+footer {
+    background-color: var(--color3);
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+

@@ -1,0 +1,71 @@
+:root {
+    --color1: #eae8dc;
+    --color1-1: #fdf5e6;
+    --color2: #181818;
+    --color3: #e88002;
+
+}
+
+
+
+.miBoton {
+    background-color: var(--color3);
+    color: white;
+}
+
+.miBoton:hover {
+    color: white;
+    background-color: rgb(206, 114, 1);
+}
+
+.div-nosotros {
+    background-color: var(--color2);
+    color: white;
+}
+
+.img-fluid {
+    height: auto;
+}
+
+.div-cards{
+    background-color: var(--color1);
+}
+
+.card-body{
+    background-color: var(--color2);
+    color: white;
+}
+
+.div-form{
+    background-color: var(--color1-1);
+}
+
+.div-form div p a{
+    color: var(--color3);
+}
+.div-form div p{
+    color: var(--color3);
+}
+
+.mensaje{
+    height: 90px;
+}
+
+.form-miBoton{
+    background-color: var(--color3);
+    color: white;
+}
+
+.form-miBoton:hover{
+    color: white;
+    background-color: rgb(206, 114, 1);
+}
+
+
+footer {
+    background-color: var(--color2);
+
+}
+.logo {
+    width: 40px;
+}
