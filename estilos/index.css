@@ -1,3 +1,15 @@
+
+
+.miclassboton{
+    width: 400px;
+    height: 40px;
+   
+    
+}
+.centrar{
+
+    text-align: center;
+}
 :root {
     --color1: #eae8dc;
     --color1-1: #fdf5e6;
@@ -5,6 +17,8 @@
     --color3:  rgba(206, 83, 1, 0.856);
     --color4 :  #986700
 }
+
+
 
 
 
@@ -25,7 +39,19 @@
 .tarjeta-banner{
     background-color: var(--color4);
     opacity: .8;
+    font-family :"arial black"     
+     
 }
+
+
+    .h1[
+        font-family :
+    
+    
+    ]
+
+
+
 
 .img-fluid {
     height: auto;

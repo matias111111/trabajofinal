@@ -1,4 +1,4 @@
-:root {
+:root  {
     --color1: #eae8dc;
     --color1-1: #fdf5e6;
     --color2: #181818;
@@ -6,6 +6,24 @@
 
 }
 
+
+
+.imagen {
+    whigth: 250px;
+
+
+
+}
+.titulo{
+margin-bottom: 120px;
+font-size: 50px;
+
+}
+.centrar{
+ 
+  text-align: centrar;
+ 
+}
 
 
 .miBoton {
