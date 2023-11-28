@@ -1,24 +1,10 @@
-
-
-.miclassboton{
-    width: 400px;
-    height: 40px;
-   
-    
-}
-.centrar{
-
-    text-align: center;
-}
 :root {
     --color1: #eae8dc;
     --color1-1: #fdf5e6;
     --color2: #181818;
     --color3:  rgba(206, 83, 1, 0.856);
-    --color4 :  #986700
+
 }
-
-
 
 
 
@@ -36,22 +22,6 @@
     background-color: var(--color2);
     color: white;
 }
-.tarjeta-banner{
-    background-color: var(--color4);
-    opacity: .8;
-    font-family :"arial black"     
-     
-}
-
-
-    .h1[
-        font-family :
-    
-    
-    ]
-
-
-
 
 .img-fluid {
     height: auto;
@@ -100,8 +70,3 @@ footer {
     width: 40px;
     height: 40px;
 }
-
-
-
-
-
