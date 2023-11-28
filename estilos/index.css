@@ -36,6 +36,11 @@
     color: white;
 }
 
+.tarjeta-banner{
+    background-color: var(--color3);
+    opacity: .8;
+}
+
 .div-form{
     background-color: var(--color1-1);
 }
@@ -69,4 +74,8 @@ footer {
 .logo {
     width: 40px;
     height: 40px;
+}
+
+.formulario {
+    background-color: var(--color1);
 }
