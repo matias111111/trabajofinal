@@ -1,11 +1,11 @@
 
-let .emaail= document.getElementById(email);
-let .passsword= password;
+let .email= document.getElementById(email);
+let .contraseña= password;
 
-let .passsword="123"
+let contraseña="123"
 
 console. log(email)
-console. log(passsword)
+console. log(constraseña)
 
 let .administrador={
     
@@ -13,7 +13,7 @@ let .administrador={
     pass: 123 
 }
 
-console .log (el usuario es {administrador.email} y la contraseña es {administrador.passsword})
+console .log (el usuario es {administrador.email} y la contraseña es {administrador.contraseña})
 
 
 
