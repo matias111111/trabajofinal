@@ -13,7 +13,7 @@ let .administrador={
     pass: 123 
 }
 
-console .log (el usuario es {administrador.email} y la contraseña es {administrador.passsword} 
+console .log (el usuario es {administrador.email} y la contraseña es {administrador.passsword})
 
 
 
