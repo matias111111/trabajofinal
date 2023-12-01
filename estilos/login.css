@@ -6,7 +6,11 @@
     --color4 :  #986700
 }
 
+.miclaseboton{
 
+    width: 400px;
+    height: 40px;
+}
 
 .miBoton {
     background-color: var(--color3);
@@ -29,7 +33,10 @@
      
 }
 
+.centrar{
 
+    text-align: centrar;
+}
     
 
 

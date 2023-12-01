@@ -1,29 +1,23 @@
-console. log ("=======================================");
-
-console.log ( "soy java con comillas dobles");
-
-console.log ("1  soy java con comillas dobles");
-
-console.log ("2 soy java con comillas dobles");
-
-console.log ("3 soy java con comillas dobles" );
 
 
-console. log ( "==============================");
-
-var nombre="pepe";
-
-const dni = 123456;
-
-let email = "pepe@gmail.com";
-
-let password = "123"
-
-console.log(nombre)
+let usuario =document.getElementById ("email").nodeValue;
+let password =document.getElementById ("password").nodeValue;
 
 
+console.log("email");
+console.log("password");
+
+let administrador ={
+
+    user: "matias@gmail.com",
+    password : "1234",
+}
+
+console.log("el usuario es ${administrador.email} y la contraseña es ${administrador.password}")
+
+function saluda(){
 
 
-
-
-
+console.log {hola soy una funcion}
+}
+saludar()
