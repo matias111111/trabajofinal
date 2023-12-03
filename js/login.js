@@ -1,7 +1,7 @@
 
 
-let usuario =document.getElementById ("email").nodeValue;
-let password =document.getElementById ("password").nodeValue;
+let user =document.getElementById("email").value;
+let password =document.getElementById("password").value;
 
 
 console.log("email");
@@ -16,8 +16,37 @@ let administrador ={
 console.log("el usuario es ${administrador.email} y la contraseña es ${administrador.password}")
 
 function saluda(){
-
-
-console.log {hola soy una funcion}
+console.log {"hola soy una funcion"}
+//alert("hola soy una funcion")
 }
-saludar()
+
+
+function login(){
+
+   
+  let user =document.getElementById("email").Value;
+    let password =document.getElementById("password").Value;
+    
+console.log("el usuario es ${administrador.email} y la contraseña es ${administrador.password}")
+
+
+if( user="" && password =""){
+    alert("por favor ingrese un  usuario y una contrasena")
+
+}
+
+if(administrador.user = user && administrador.password = password){
+    alert("Bienvenido al administrador");
+}else{
+    alert("ususario y contraseña incorrecta ");
+}
+
+
+
+let imputUser= document.getElementById("email");
+imputUser.value="";
+
+imputPass.document.getElementById("password");
+imputPass.value="";
+
+}
