@@ -1,45 +1,49 @@
 
 
-let user = document.getElementById("email").value
-let password = document.getElementById("password").value;
+let user = document.getElementById("email").value;
+let pass= document.getElementById("pass").value;
 
 
 console.log("email");
-console.log("password");
+console.log("pass");
 
-let administrador = {
+let administrador= {
 
-    user:"matias@gmail.com",
-    password:"1234",
+user:"matias@gmail.com",
+password: 1234,
 }
 
-console.log("el usuario es ${administrador.email} y la contraseña es ${administrador.password}")
+console.log("el usuario es {administrador.email} y el pass es {administrador.pass}")
 
 function saluda() {
-    console.log { "hola soy una funcion" }
-    //alert("hola soy una funcion")
+  console.log { "hola soy una funcion" }
+ alert("hola soy una funcion")
 }
 
 
-function login() {
+function login()  {
+var user,pass;
+
+     user = document.getElementById("email").Value;
+     pass = document.getElementById("pass").Value;
+
+    console.log("el user es {administrador.email} y la pass es {administrador.pass}")
 
 
-    let user = document.getElementById("email").Value;
-    let password = document.getElementById("password").Value;
+   if (user=="matias@gmail.com" && pass=="1234") {
+         alert("por favor ingrese un  usuario y una contrasena")
+        
+        windows.location= "../pages/contactosceo.html"   
+    } 
+    
 
-    console.log("el usuario es ${administrador.email} y la contraseña es ${administrador.password}")
 
 
-    if (user = "" && password = "") {
-        // alert("por favor ingrese un  usuario y una contrasena")
-        location..href = "/pages/error.html    
-    }
-
-        if (administrador.user = user && administrador.password = password) {
-            alert("Bienvenido al administrador");
-            location.href = "../pages/administrador.html"
+        if ("administrador.user=user && administrador.pass=password") {
+           
+            wndows.location.href="//pages/administrador.html";
         }else {
-            alert("ususario y contraseña incorrecta ");
+            alert("usuario y contraseña incorrecta");
         }
 
 
