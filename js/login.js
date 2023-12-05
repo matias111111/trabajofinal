@@ -15,10 +15,8 @@ password: 1234,
 
 console.log("el usuario es {administrador.email} y el pass es {administrador.pass}")
 
-function saluda() {
-  console.log { "hola soy una funcion" }
- alert("hola soy una funcion")
-}
+
+
 
 
 function login()  {
