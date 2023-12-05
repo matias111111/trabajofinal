@@ -1,30 +1,30 @@
+var user = document.getElementById("user").value
+var pass = document.getElementById("pass").value
 
 
-let email= document.getElementById("email").value;
-let pass= document.getElementById("password").value;
-
-
-
-function login() {
-
- 
-   if (administrador.user=="matias@gmail.com" && administrador.password=="1234") {
+function ingreso() {
+    
+    
+    if (user == "" || password == ""){
+      
+        location.href = '/pages/error.html'
         
-    location.href="../pages/administrador.html"
+    }
 
+    if ( user === "matias" && pass === 1234){
+
+        Window.Location.href = '/pages/administrador.html'
         
-    } 
+        
+        
+
+    }else{
+        
+        Window.Location.href = '/pages/error.html'
+        console.log(location.pathname)
+    }
+
     
 
-
-
-        if ("administrador.user==user && administrador.pass==password") {
-           
-            location.href="../pages/error.html";
-        }else {
-            alert("usuario y contraseña incorrecta");
-        }
-
-
-
-    }
+    
+}

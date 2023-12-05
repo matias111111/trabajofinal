@@ -1,1 +1,0 @@
-console.log ("hola estamos administrando la empresa")
