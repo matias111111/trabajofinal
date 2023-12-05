@@ -2,4 +2,3 @@
 
 # Utilice Html,Css,Js con bosstrap y flexbox en donde se puede desplazar con tranquilidad sobre toda la aplicacion
 
-# tambien se puede usar localstorage para la base de datos del Browse
