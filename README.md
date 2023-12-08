@@ -2,3 +2,4 @@
 
 # Utilice Html,Css,Js con bosstrap y flexbox en donde se puede desplazar con tranquilidad sobre toda la aplicacion
 
+# profe mi repo anda de 10 se ejecuta la pagina como quiero pero en el deploy no se xq no me deja deployarla. si usted hace un clone en su repo va a poder ver como realmente es la pagina 
